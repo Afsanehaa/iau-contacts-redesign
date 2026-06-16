@@ -20,7 +20,6 @@
           class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all"
         />
       </div>
-
       <!-- محل قرارگیری لیست مخاطبین (در مرحله بعد) -->
       <div class="mt-8 text-center text-gray-400">
         <p>لیست مخاطبین اینجا نمایش داده خواهد شد...</p>
