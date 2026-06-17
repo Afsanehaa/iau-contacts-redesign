@@ -1,5 +1,78 @@
-# Vue 3 + Vite
+# 🚀 بازطراحی سامانه اطلاعات واحدها (واحد الکترونیکی دانشگاه آزاد)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+این پروژه با هدف ارتقای تجربه کاربری (UX) و مدرن‌سازی رابط کاربری (UI) سامانه قدیمی طراحی و اجرا شده است. در این بازطراحی، تمرکز اصلی بر خوانایی بهتر، دسترسی سریع‌تر به شماره تماس‌ها و ایجاد ظاهری مدرن بوده است.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🔗 لینک مشاهده آنلاین
+شما می‌توانید نسخه نهایی و زنده پروژه را که به صورت خودکار از طریق GitHub Actions/Pages مستقر شده است، در لینک زیر مشاهده کنید:
+
+👉 **[برای مشاهده دمو اینجا کلیک کنید](https://afsaneh-abdi.github.io/iau-contacts-redesign/)**
+
+---
+
+## 🛠 فازهای عملیاتی پروژه
+
+### ۱. تحلیل و بررسی (Analysis)
+- استخراج داده‌ها و ساختار سامانه فعلی.
+- بررسی نقاط ضعف طراحی قدیمی (مانند عدم واکنش‌گرایی و تراکم بیش از حد متن).
+- اولویت‌بندی اطلاعات تماس بر اساس نیاز کاربران (دانشجویان و اساتید).
+
+### ۲. طراحی رابط کاربری (UI Design)
+- استفاده از سیستم طراحی **Tailwind CSS** برای ایجاد یکپارچگی بصری.
+- طراحی کارت‌های مجزا (Card-based Design) برای هر واحد جهت تفکیک بهتر اطلاعات.
+- استفاده از آیکون‌های استاندارد برای شماره تماس‌ها و لینک‌های خارجی.
+
+### ۳. توسعه فنی (Development)
+- پیاده‌سازی پروژه با استفاده از **Vue.js 3** برای بهبود سرعت و مدیریت بهتر کامپوننت‌ها.
+- بهینه‌سازی برای نمایش در موبایل، تبلت و دسکتاپ (**Responsive Design**).
+- استفاده از ابزار **Vite** برای افزایش سرعت توسعه و بیلد نهایی.
+
+---
+
+## 📸 گالری تصاویر
+
+در اینجا می‌توانید تفاوت بین نسخه قدیمی و نسخه بازطراحی شده را مشاهده کنید:
+
+| وضعیت فعلی (قبل از بازطراحی) | بازطراحی جدید (UI نهایی) |
+| :---: | :---: |
+| ![طراحی قدیمی](https://raw.githubusercontent.com/afsaneh-abdi/iau-contacts-redesign/main/screenshots/old_version.jpg) | ![طراحی جدید](https://raw.githubusercontent.com/afsaneh-abdi/iau-contacts-redesign/main/screenshots/new_design.png) |
+
+---
+
+## 🚀 نحوه اجرا در سیستم محلی (Local Setup)
+
+برای اجرای این پروژه روی سیستم خود، ابتدا از نصب بودن [Node.js](https://nodejs.org/) اطمینان حاصل کنید، سپس مراحل زیر را دنبال کنید:
+
+**۱. کلون کردن پروژه:**
+```bash
+git clone https://github.com/afsaneh-abdi/iau-contacts-redesign.git
+cd iau-contacts-redesign
+```
+
+**۲. نصب پیش‌نیازها (Dependencies):**
+```bash
+npm install
+```
+
+**۳. اجرای نسخه توسعه:**
+```bash
+npm run dev
+```
+سپس آدرس `http://localhost:5173` را در مرورگر خود باز کنید.
+
+**۴. ساخت نسخه نهایی (Production Build):**
+```bash
+npm run build
+```
+
+---
+
+## 💻 تکنولوژی‌های استفاده شده
+- **Frontend Framework:** Vue.js 3
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Deployment:** GitHub Pages
+
+---
+**توسعه دهنده:** افسانه عبدی

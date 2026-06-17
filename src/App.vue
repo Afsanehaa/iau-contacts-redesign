@@ -93,6 +93,31 @@ const selectProvince = (province) => {
         <div class="text-7xl mb-4 opacity-10">🎓</div>
         <p class="text-gray-400 font-bold text-lg">برای مشاهده اطلاعات واحدها، ابتدا یک استان را انتخاب کنید</p>
       </div>
+       <footer class="mt-16 mb-10">
+        <div class="bg-white rounded-3xl p-6 shadow-sm border border-gray-100">
+          <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-xs md:text-sm text-gray-500 font-bold mb-6">
+            <a href="https://ec.iau.ir/fa/content/281" class="flex items-center gap-2 hover:text-blue-600 transition-colors">
+              <span>راهنما و فیلم های آموزشی</span>
+              <span class="text-lg">🎞️</span>
+            </a>
+            <span class="hidden md:block text-gray-200">|</span>
+            <a href="https://vadamap.ec.iau.ir/contacts.php" class="flex items-center gap-2 hover:text-blue-600 transition-colors">
+              <span>مرکز دانلود و فایل‌های راهنما</span>
+              <span class="text-lg">📥</span>
+            </a>
+            <span class="hidden md:block text-gray-200">|</span>
+            <a href="https://vadamap.ec.iau.ir/contacts.php" class="flex items-center gap-2 hover:text-blue-600 transition-colors">
+              <span>اطلاعات تماس با پشتیبانی فنی مستقر در واحدها</span>
+              <span class="text-lg">📞</span>
+            </a>
+          </div>
+          <div class="flex items-center justify-center gap-2 text-[10px] md:text-xs text-gray-400 border-t border-gray-50 pt-6">
+            <span class="font-medium text-center">دانشگاه آزاد اسلامی واحد الکترونیکی</span>
+            <span class="text-lg">©️</span>
+          </div>
+        </div>
+      </footer>
+
     </main>
   </div>
 </template>
