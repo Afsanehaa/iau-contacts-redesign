@@ -14,9 +14,9 @@ export const provinces = [
     name: "اردبیل",
     slug: "ardebil",
     cities: [
-      { id: 104, name: "واحد اردبیل", support: "ایرج قربانی", phone: "09121225867", website: "ardebil.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2ardebil" },
-      { id: 105, name: "واحد خلخال", support: "عارف ترابی", phone: "09121234512", website: "khalkhal.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2khalkhal" },
-      { id: 106, name: "واحد گرمی", support: "وحید رشیدی", phone: "09121234789", website: "germi.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2germi" }
+      { id: 104, name: "اردبیل", support: "ایرج قربانی", phone: "09121225867", website: "ardebil.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2ardebil" },
+      { id: 105, name: "خلخال", support: "عارف ترابی", phone: "09121234512", website: "khalkhal.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2khalkhal" },
+      { id: 106, name: "گرمی", support: "وحید رشیدی", phone: "09121234789", website: "germi.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2germi" }
     ]
   },
   {
@@ -24,9 +24,9 @@ export const provinces = [
     name: "البرز",
     slug: "alborz",
     cities: [
-      { id: 107, name: "واحد کرج", support: "شهرزاد ستوده", phone: "09151234567", website: "karaj.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2karaj" },
+      { id: 107, name: "کرج", support: "شهرزاد ستوده", phone: "09151234567", website: "karaj.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2karaj" },
       { id: 108, name: "مرکز نظرآباد", support: "شکوفه رضایی", phone: "09143021064", website: "nazarabad.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2nazarabad" },
-      { id: 109, name: "واحد هشتگرد", support: "یگانه بیگی", phone: "09131234567", website: "hashtgard.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2hashtgard" }
+      { id: 109, name: "هشتگرد", support: "یگانه بیگی", phone: "09131234567", website: "hashtgard.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2hashtgard" }
     ]
   },
   {
@@ -42,9 +42,9 @@ export const provinces = [
     name: "بوشهر",
     slug: "boshehr",
     cities: [
-      { id: 111, name: "واحد بوشهر", support: "ارسلان فلاحتکار", phone: "09136021064", website: "boshehr.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2boshehr" },
+      { id: 111, name: "بوشهر", support: "ارسلان فلاحتکار", phone: "09136021064", website: "boshehr.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2boshehr" },
       { id: 112, name: "مرکز کنگان", support: "عبدالمجید سبوطی", phone: "09189021064", website: "kangan.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2kangan" },
-      { id: 113, name: "واحد لوار", support: "محمد محمدی تبار", phone: "09173021064", website: "lavar.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2lavar" }
+      { id: 113, name: "لوار", support: "محمد محمدی تبار", phone: "09173021064", website: "lavar.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2lavar" }
     ]
   },
   {
@@ -63,8 +63,8 @@ export const provinces = [
     name: "چهارمحال و بختیاری",
     slug: "chaharmahal-and-bakhtiari",
     cities: [
-      { id: 117, name: "واحد شهرکرد", support: "کامران کوزه گر", phone: "09145421064", website: "shahrkord.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2shahrkord" },
-      { id: 118, name: "واحد بروجن", support: "کامران کوزه گر", phone: "09163021064", website: "borojen.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2borojen" },
+      { id: 117, name: "شهرکرد", support: "کامران کوزه گر", phone: "09145421064", website: "shahrkord.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2shahrkord" },
+      { id: 118, name: "بروجن", support: "کامران کوزه گر", phone: "09163021064", website: "borojen.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2borojen" },
       { id: 119, name: "مرکز فارسان", support: "کامران کوزه گر", phone: "09193021064", website: "farsiyan.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://vadana2farsiyan" }
     ]
   },
@@ -83,9 +83,9 @@ export const provinces = [
     name: "خراسان شمالی",
     slug: "north-khorasan",
     cities: [
-      { id: 123, name: "واحد بجنورد", support: "کامران کوزه گر", phone: "09123921064", website: "bojnord.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://bojnord" },
-      { id: 124, name: "واحد شیروان", support: "احمدی", phone: "02131111156", website: "shirvan.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/shirvan" },
-      { id: 125, name: "واحد اسفراین", support: "احمدی", phone: "04131145611", website: "esfarayen.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/esfarayen" }
+      { id: 123, name: " بجنورد", support: "کامران کوزه گر", phone: "09123921064", website: "bojnord.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://bojnord" },
+      { id: 124, name: " شیروان", support: "احمدی", phone: "02131111156", website: "shirvan.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/shirvan" },
+      { id: 125, name: " اسفراین", support: "احمدی", phone: "04131145611", website: "esfarayen.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/esfarayen" }
     ]
   },
   {
@@ -93,9 +93,9 @@ export const provinces = [
     name: "زنجان",
     slug: "zanjan",
     cities: [
-      { id: 126, name: "واحد خدابنده", support: "کامران کوزه گر", phone: "09143843064", website: "khodabande.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://khodabande" },
-      { id: 127, name: "واحد هیدج", support: "احمدی", phone: "05131239111", website: "hidaj.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/hidaj" },
-      { id: 128, name: "واحد ابهر", support: "احمدی", phone: "04131139711", website: "abhar.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/abhar" }
+      { id: 126, name: " خدابنده", support: "کامران کوزه گر", phone: "09143843064", website: "khodabande.iau.ir", vadana: "vadana02.ec.aiu.ir", messenger: "http://khodabande" },
+      { id: 127, name: " هیدج", support: "احمدی", phone: "05131239111", website: "hidaj.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/hidaj" },
+      { id: 128, name: "ابهر", support: "احمدی", phone: "04131139711", website: "abhar.iau.ir", vadana: "vadana01.ec.aiu.ir", messenger: "http://t.me/abhar" }
     ]
   }
 ];
