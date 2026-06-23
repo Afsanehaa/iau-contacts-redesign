@@ -7,7 +7,7 @@
 ## 🔗 لینک مشاهده آنلاین
 شما می‌توانید نسخه نهایی و زنده پروژه را که به صورت خودکار از طریق GitHub Actions/Pages مستقر شده است، در لینک زیر مشاهده کنید:
 
-👉 **[برای مشاهده دمو اینجا کلیک کنید](https://afsaneh-abdi.github.io/iau-contacts-redesign/)**
+👉 **[برای مشاهده دمو اینجا کلیک کنید](https://afsanehaa.github.io/iau-contacts-redesign/)**
 
 ---
 
